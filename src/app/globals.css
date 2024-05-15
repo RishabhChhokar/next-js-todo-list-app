@@ -54,9 +54,10 @@ button:hover {
 }
 
 .plusbtn {
-  -webkit-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
-  -moz-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
-  box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 190px;
 }
 
 .wrapper {
@@ -78,9 +79,7 @@ button:hover {
   border-radius: 1rem;
   margin-bottom: 4.8rem;
   min-width: 400px;
-  -webkit-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
-  -moz-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
-  box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+  box-shadow: -1px 2px 2px 2px rgba(157, 162, 235, 0.3);
 }
 
 .list {
@@ -115,9 +114,8 @@ button:hover {
 
 .addTodo button,
 input {
-  -webkit-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
-  -moz-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
-  box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+  box-shadow: -1px 3px 2px 4px rgba(157, 162, 235, 0.3);
+   border-radius: 10px;
   width: max-content;
 }
 
@@ -142,6 +140,8 @@ input {
 
 .addTodo span {
   font-size: 1.2rem;
+  font-weight : bolder;
+  border-radius: 10px;
   background-color: #aceea9;
   padding: 1rem 2rem;
   width: 100%;
